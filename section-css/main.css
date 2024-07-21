@@ -1,0 +1,352 @@
+.tickets {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 40px 0 0 0;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container1 p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container1 a {
+    background-color: #d7fc6e;
+    margin: 20px 0 0 0;
+    padding: 5px 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container1 a p {
+    color: #070707;
+    padding: 0 10px 0 5px;
+  }
+
+  .container1 a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 5px 0 10px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-container {
+    width: 320px;
+    height: 130px;
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    width: 6%;
+  }
+  .col2 {
+    width: 85%;
+    background: linear-gradient(to right, #adadad, #7a7a7a);
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 10px;
+    gap: 20px;
+  }
+  .col2 img{
+    width: 40%;
+  }
+  .col2 h3{
+    font-size: 14px;
+  }
+  .text img{
+    width:13px;
+    height: 13px;
+  }
+  .text p{
+    font-size: 11px;
+  }
+  .radius1 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    box-shadow: 10px 0 0 10px #adadad;
+    border-left: none;
+    height: 33.3%;
+    z-index: 0;
+  }
+  .radius2 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    box-shadow: -10px 0 0 10px #7a7a7a;
+    border-right: none;
+    height: 33.3%;
+    z-index: 0;
+  }
+
+  .b1 {
+    border: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    background-color: #adadad;
+    height: 33.3%;
+  }
+
+  .b3 {
+    border: 2px solid #fff;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    background-color: #adadad;
+    height: 33.3%;
+  }
+
+  .b5 {
+    background-color: #7a7a7a;
+    height: 33.3%;
+    border: 2px solid #fff;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+  }
+
+  .b6 {
+    border: 2px solid #fff;
+    border-right: none;
+    border-top: none;
+    background-color: #adadad;
+    height: 33.3%;
+  }
+  .b7 {
+    background-color: #7a7a7a;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    height: 33.3%;
+    border-bottom-right-radius: 5px;
+  }
+
+  .box-item {
+    z-index: 1;
+  }
+
+  .col2 h3,
+  .col2 p {
+    margin: 0;
+  }
+
+  .calendar {
+    display: flex;
+    gap: 5px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+  }
+
+@media (min-width: 1024px) {
+  .tickets {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 40px 0 0 0;
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container1 p {
+    color: #fff;
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .container1 a {
+    background-color: #d7fc6e;
+    margin: 20px 0 0 0;
+    padding: 10px 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container1 a p {
+    color: #070707;
+    padding: 0 10px 0 5px;
+  }
+
+  .container1 a img {
+    width: 25px;
+    height: 25px;
+    padding: 0 5px 0 10px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row1 {
+    display: flex;
+    gap: 20px;
+  }
+
+  .box-container {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    width: 6%;
+  }
+  .col2 {
+    width: 85%;
+    background: linear-gradient(to right, #adadad, #7a7a7a);
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 10px;
+    gap: 20px;
+  }
+
+  .radius1 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    box-shadow: 10px 0 0 10px #adadad;
+    border-left: none;
+    height: 33.3%;
+    z-index: 0;
+  }
+  .radius2 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    box-shadow: -10px 0 0 10px #7a7a7a;
+    border-right: none;
+    height: 33.3%;
+    z-index: 0;
+  }
+
+  .b1 {
+    border: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    background-color: #adadad;
+    height: 33.3%;
+  }
+
+  .b3 {
+    border: 2px solid #fff;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    background-color: #adadad;
+    height: 33.3%;
+  }
+
+  .b5 {
+    background-color: #7a7a7a;
+    height: 33.3%;
+    border: 2px solid #fff;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+  }
+
+  .b6 {
+    border: 2px solid #fff;
+    border-right: none;
+    border-top: none;
+    background-color: #adadad;
+    height: 33.3%;
+  }
+  .b7 {
+    background-color: #7a7a7a;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    height: 33.3%;
+    border-bottom-right-radius: 5px;
+  }
+
+  .box-item {
+    z-index: 1;
+  }
+
+  .col2 h3,
+  .col2 p {
+    margin: 0;
+  }
+
+  .calendar {
+    display: flex;
+    gap: 5px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+  }
+}
