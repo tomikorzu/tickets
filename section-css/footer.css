@@ -1,0 +1,17 @@
+footer{
+    padding: 40px 0 20px 0;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+footer a{
+    color: #fff;
+    font-weight: 400;
+    padding: 0px 30px;
+    
+}
+
+.a1{
+    border-right: 1px solid #fff;
+}
