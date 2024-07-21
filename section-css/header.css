@@ -80,17 +80,23 @@
     list-style: none;
     padding: 0;
     gap: 60px;
+    margin: 10px 0 0;
   }
 
+  .nav-logo img{
+    width: 140px;
+}
   .active {
     display: block;
     border-bottom: 2px solid #b773fb;
     color: #fff;
+    font-size: 16px;
     padding: 0 20px 10px 20px;
 }
 
 .disable {
       display: block;
+      font-size: 16px;
     color: #ffffff80;
     padding: 0 20px 10px 20px;
   }

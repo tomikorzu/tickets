@@ -3,9 +3,12 @@
 body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
-    background: url(./img/fondo.png) center / cover no-repeat, fixed;
 }
 a {
     text-decoration: none;
 }
 
+.hero{
+
+    background: url(./img/fondo.png) center / cover no-repeat, fixed;
+}
